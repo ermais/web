@@ -7,13 +7,13 @@ text-align: center;
 
 
 #nav {
-height: 50;
+height: 50px;
 background-color: darkslategrey;
 }
 
-#nav ol li a {
+#nav ol li {
     list-style: none;
     display: inline;
     size: 64px;
-    color: lawngreen;
+    color: khaki;
 }
