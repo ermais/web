@@ -7,13 +7,24 @@ text-align: center;
 
 
 #nav {
+-webkit-margin-top-collapse: collapse;
 height: 50px;
 background-color: darkslategrey;
 }
-
+#nav ol {
+    padding: 12px;
+    text-align: center;
+}
 #nav ol li {
+    padding: 36px;
+    size: 100px;
+    text-align: center;
+    size: 96px;
     list-style: none;
     display: inline;
-    size: 64px;
+
+}
+
+#nav ol li a {
     color: khaki;
 }
