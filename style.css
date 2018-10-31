@@ -1,3 +1,8 @@
+#page {
+    background-color: grey;
+    display: block;
+}
+
 #header {
 height: 50px;
 background-color: black;
@@ -5,9 +10,10 @@ color: azure;
 text-align: center;
 }
 
-
+#bodySection {
+    display:inline;
+}
 #nav {
--webkit-margin-top-collapse: collapse;
 height: 50px;
 background-color: darkslategrey;
 }
@@ -17,9 +23,6 @@ background-color: darkslategrey;
 }
 #nav ol li {
     padding: 36px;
-    size: 100px;
-    text-align: center;
-    size: 96px;
     list-style: none;
     display: inline;
 
@@ -27,4 +30,18 @@ background-color: darkslategrey;
 
 #nav ol li a {
     color: khaki;
+    font-size: 32px;
+    text-decoration-line: none;
+}
+
+#body {
+    background-color: sienna;
+    max-height: 700px;
+    max-width: 700px;
+}
+
+#section {
+    background-color: thistle;
+    max-height: 700px;
+    max-width: 300px;
 }
