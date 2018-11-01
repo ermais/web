@@ -3,4 +3,43 @@ header{
     margin: 0px;
     height: 50px;
     background-color: dimgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    font-style: oblique;
+    -ms-flow-into: inherit;
+    text-align: center;
+    text-decoration: khaki;
+    text-shadow: lightpink;
+    -webkit-text-fill-color: lightseagreen;
+    -moz-text-size-adjust: auto;
+    text-anchor: middle;
+}
+
+nav {
+    align-items: center;
+    border: 0px;
+    margin: 0px;
+    height: 50px;
+    background-blend-mode: soft-light;
+    background-color: mediumaquamarine;
+}
+
+nav ul {
+    text-decoration-style: none;
+    text-decoration-line: none;
+text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 12px;
+}
+
+nav ul li a {
+    text-decoration-line: none;
+    font-size: 32px;
+    font-kerning: auto;
+    font-style: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
